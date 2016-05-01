@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-var config = require('../../../config/config.json');
+let config = require('../../../config/config.json');
 
-class SimpleComponent extends Component{
+let SimpleComponent = React.createClass({
     render() {
         return (
             <div>
@@ -9,6 +9,6 @@ class SimpleComponent extends Component{
             </div>
         )
     }
-}
+});
 
 export default SimpleComponent;
