@@ -1,4 +1,6 @@
 .git
 .idea
 dist
+jest
 node_modules
+webpack.config.js
