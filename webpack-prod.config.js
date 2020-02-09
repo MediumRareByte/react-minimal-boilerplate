@@ -3,9 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 
 module.exports = {
-  mode: "development",
-
-  devtool: "source-map",
+  mode: "production",
 
   resolve: {
     modules: ["src", "node_modules"],
@@ -33,11 +31,6 @@ module.exports = {
             loader: "ts-loader",
           },
         ],
-      },
-      {
-        enforce: "pre",
-        test: /\.js$/,
-        loader: "source-map-loader",
       },
     ],
   },
