@@ -1,1 +1,1 @@
-export { Hello } from "./Hello"
+export { Hello, HelloProps } from "./Hello"
